@@ -16,7 +16,7 @@ OneDrive, Dropbox oder Syncthing möglich.
 |---|---|
 | `HatzeNotizen_Setup.exe` | Windows-Installation (empfohlen) |
 | `HatzeNotizen.zip` | Windows portabel – entpacken und starten, keine Installation |
-| `HatzeNotizen.apk` | Android-Begleit-App (Installation aus unbekannten Quellen erlauben) |
+| [`HatzeNotizen.apk`](https://github.com/KilianHatze/hatze-notizen-releases/releases/tag/v2.0.1) | Android-Begleit-App – vorerst weiter Version 2.0.1 ([Download bei v2.0.1](https://github.com/KilianHatze/hatze-notizen-releases/releases/tag/v2.0.1); Installation aus unbekannten Quellen erlauben) |
 
 ### Hinweis zur SmartScreen-Meldung
 
@@ -32,8 +32,18 @@ geschützt" anzeigen, weil die Datei (noch) nicht signiert ist. In dem Fall:
 
 ## Automatische Update-Prüfung
 
-In der App unter **Einstellungen → Updates** diese Adresse als Update-Quelle
-eintragen – dann meldet sich die App, sobald hier eine neue Version liegt:
+Ab Version 2.0.2 fragt die App beim ersten Start einmal, ob sie beim Start
+nach neuen Versionen suchen soll. Bei „Ja" fragt sie nur die aktuelle
+Versionsnummer aus der Datei `version.json` in diesem Repository ab – GitHub
+sieht dabei wie bei jedem Webseitenaufruf die IP-Adresse. Sie meldet sich nur,
+wenn eine neue Version bereitliegt; „Anzeigen" öffnet dann die Download-Seite.
+Bei „Nein" fragt die App nie von sich aus nach.
+
+Ändern lässt sich das jederzeit unter **Einstellungen → Updates**.
+
+In Version 2.0.1 gibt es diese Frage noch nicht. Dort lässt sich die Prüfung
+unter **Einstellungen → Updates** einschalten, indem man diese Adresse als
+Update-Quelle einträgt:
 
 ```
 https://raw.githubusercontent.com/KilianHatze/hatze-notizen-releases/main/version.json
