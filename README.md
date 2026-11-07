@@ -16,7 +16,7 @@ OneDrive, Dropbox oder Syncthing möglich.
 |---|---|
 | `HatzeNotizen_Setup.exe` | Windows-Installation (empfohlen) |
 | `HatzeNotizen.zip` | Windows portabel – entpacken und starten, keine Installation |
-| [`HatzeNotizen.apk`](https://github.com/KilianHatze/hatze-notizen-releases/releases/tag/v2.0.1) | Android-Begleit-App – vorerst weiter Version 2.0.1 ([Download bei v2.0.1](https://github.com/KilianHatze/hatze-notizen-releases/releases/tag/v2.0.1); Installation aus unbekannten Quellen erlauben) |
+| [`HatzeNotizen.apk`](https://github.com/KilianHatze/hatze-notizen-releases/releases/latest) | Android-Begleit-App (Installation aus unbekannten Quellen erlauben). Wer noch 2.0.1 hat: vorher die Notizen als Markdown exportieren und die alte App deinstallieren – Details in den Release-Notes |
 
 ### Hinweis zur SmartScreen-Meldung
 

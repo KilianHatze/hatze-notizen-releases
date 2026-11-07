@@ -1,4 +1,6 @@
 {
   "version": "2.0.2",
-  "url": "https://github.com/KilianHatze/hatze-notizen-releases/releases/latest/download/HatzeNotizen_Setup.exe"
+  "url": "https://github.com/KilianHatze/hatze-notizen-releases/releases/latest/download/HatzeNotizen_Setup.exe",
+  "version_android": "2.0.2",
+  "url_android": "https://github.com/KilianHatze/hatze-notizen-releases/releases/latest/download/HatzeNotizen.apk"
 }
